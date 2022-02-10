@@ -2,7 +2,8 @@ import { useDispatch, useSelector } from "react-redux";
 // import axios from "axios";
 import ProductComponent from "./ProductComponent";
 import { useEffect } from "react";
-import { setProducts, fetchProducts } from "../redux/acrions/productAction";
+//import { setProducts, fetchProducts } from "../redux/acrions/productAction";
+import { fetchProducts } from "../redux/acrions/productAction";
 
 const ProductListing = () => {
   const products = useSelector((state) => state);
